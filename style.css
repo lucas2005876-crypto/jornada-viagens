@@ -4,3 +4,14 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
     box-sizing: border-box;
 }
 
+:root{
+    --background-prymary-color: #ffffff ;
+    --background-secundary-color: #f5f5f5 ;
+    --background-tertiary-color: #0000 ;
+
+    --button-primary-color: #b81515;
+    --button-secundary-color: #8f0101;
+    
+    --text-primary-color: #222222;
+    --text-secundary-color: #ffffff;
+}
