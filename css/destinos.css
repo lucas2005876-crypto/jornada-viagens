@@ -1,0 +1,106 @@
+.destin-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.destinos h4,
+.destinos p {
+  width: 100%;
+  text-align: left;
+}
+
+.item-destin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 24px;
+  width: 312px;
+}
+
+.destinos a {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secundary-color);
+  font-size: 20px;
+  font-weight: var(--titles-weight);
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.img-itemtokyo {
+  background-image: url(../img/Tokyombl.jpg);
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.img-itemosaka {
+  background-image: url(../img/Osakambl.jpg);
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.destinos h4 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 24px 0;
+  text-align: left;
+}
+
+.destinos p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 34px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .img-itemtokyo {
+    width: 648px;
+    height: 452px;
+    background-image: url(../img/Tokyotablet.jpg);
+  }
+
+  .img-itemosaka {
+    background-image: url(../img/Osakatablet.jpg);
+    width: 648px;
+    height: 452px;
+  }
+
+  .item-destin {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-itemtokyo {
+    width: 588px;
+  }
+
+  .img-itemosaka {
+    width: 588px;
+  }
+
+  .item-destin {
+    width: 588px;
+  }
+
+  .destin-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
